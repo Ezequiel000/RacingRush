@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Karting/Scenes/IntroMenu.unity
     guid: d29260d8d84c94bd7ac95807b3da99d4
   - enabled: 1
+    path: Assets/Karting/Scenes/MenuSelect.unity
+    guid: a602f46fba9f58e4da15051e1f977f83
+  - enabled: 1
+    path: Assets/Karting/Scenes/Track1.unity
+    guid: cef3e17c073c1094e8cebc7626c2abf8
+  - enabled: 1
     path: Assets/Karting/Scenes/MainScene.unity
     guid: 92786e23da2af4a4f8803aaf44c47121
   - enabled: 1
