@@ -9,8 +9,12 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: LiberationSans SDF Material
   m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+<<<<<<< HEAD
   m_ValidKeywords:
   - OUTLINE_ON
+=======
+  m_ValidKeywords: []
+>>>>>>> main
   m_InvalidKeywords:
   - _EMISSION
   m_LightmapFlags: 1
@@ -106,7 +110,11 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
+<<<<<<< HEAD
     - _OutlineWidth: 0.2
+=======
+    - _OutlineWidth: 0.158
+>>>>>>> main
     - _Parallax: 0.02
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
