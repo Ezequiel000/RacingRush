@@ -55,6 +55,7 @@ public class ArcadeKartPowerup : MonoBehaviour {
                 isCoolingDown = true;
 
                 if (disableGameObjectWhenActivated) this.gameObject.SetActive(false);
+                
             }
         }
     }
