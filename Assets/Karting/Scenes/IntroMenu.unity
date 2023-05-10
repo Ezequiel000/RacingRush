@@ -484,7 +484,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb0be89f0d0b38469396506a9e54beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   SceneName: MenuSelect
+=======
+<<<<<<< HEAD
+  SceneName: MapSelect
+=======
+  SceneName: MenuSelect
+>>>>>>> 1f4c9d3131d83770e81c2d1d8f441b8b4e8f5057
+>>>>>>> Stashed changes
 --- !u!1 &160263376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,12 +1098,24 @@ PrefabInstance:
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< Updated upstream
       value: -0.74
+=======
+<<<<<<< HEAD
+      value: -1.16
+=======
+      value: -0.74
+>>>>>>> 1f4c9d3131d83770e81c2d1d8f441b8b4e8f5057
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< Updated upstream
       value: 0
+=======
+      value: 2.38
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
@@ -1286,7 +1306,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_text: RacingRush
+=======
+<<<<<<< HEAD
+  m_text: Racing Rush
+=======
+  m_text: RacingRush
+>>>>>>> 1f4c9d3131d83770e81c2d1d8f441b8b4e8f5057
+>>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
   m_sharedMaterial: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
@@ -1310,13 +1338,22 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
+<<<<<<< Updated upstream
   m_TextStyleHashCode: -1183493901
+=======
+  m_TextStyleHashCode: 93368250
+>>>>>>> Stashed changes
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 72
   m_fontSizeBase: 72
+=======
+  m_fontSize: 200
+  m_fontSizeBase: 200
+>>>>>>> Stashed changes
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1770,7 +1807,11 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 12
   m_fontSizeMax: 45
+<<<<<<< Updated upstream
   m_fontStyle: 16
+=======
+  m_fontStyle: 18
+>>>>>>> Stashed changes
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
