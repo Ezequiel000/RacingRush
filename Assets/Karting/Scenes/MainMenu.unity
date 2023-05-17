@@ -346,7 +346,6 @@ GameObject:
   - component: {fileID: 183340236}
   - component: {fileID: 183340238}
   - component: {fileID: 183340237}
-  - component: {fileID: 183340239}
   m_Layer: 5
   m_Name: MainMenuContainer
   m_TagString: Untagged
@@ -417,18 +416,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183340235}
   m_CullTransparentMesh: 1
---- !u!114 &183340239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 183340235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09fceae118ee16f419704b79974f4027, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &187493719
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +931,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1080677520}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenu, KartGame
         m_MethodName: SetFullscreen
         m_Mode: 0
@@ -1515,7 +1502,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1893994844}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenu, KartGame
         m_MethodName: QuitGame
         m_Mode: 1
@@ -2471,7 +2458,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1080677520}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenu, KartGame
         m_MethodName: SetResolution
         m_Mode: 0
@@ -2533,8 +2520,6 @@ GameObject:
   - component: {fileID: 1080677516}
   - component: {fileID: 1080677518}
   - component: {fileID: 1080677517}
-  - component: {fileID: 1080677519}
-  - component: {fileID: 1080677520}
   m_Layer: 5
   m_Name: SettingsPopOut
   m_TagString: Untagged
@@ -2610,32 +2595,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080677515}
   m_CullTransparentMesh: 1
---- !u!114 &1080677519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080677515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e7e3b5dfffe61f49928fcfd81ed4f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1080677520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080677515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1bd9ce61f5206478f2b13037221a73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: fcc71635aab95ff4fbdf1880bf2afa2f, type: 2}
-  resolutionDropdown: {fileID: 0}
 --- !u!1 &1089015625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,6 +3309,7 @@ GameObject:
   - component: {fileID: 1467184722}
   - component: {fileID: 1467184721}
   - component: {fileID: 1467184720}
+  - component: {fileID: 1467184723}
   m_Layer: 5
   m_Name: Course Select
   m_TagString: Untagged
@@ -3422,9 +3382,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1893994844}
-        m_TargetAssemblyTypeName: MainMenu, KartGame
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 1467184723}
+        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3472,6 +3432,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467184718}
   m_CullTransparentMesh: 1
+--- !u!114 &1467184723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467184718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5991e85416c6be4faaa1fb5066b0af6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: CourseSelect
 --- !u!1 &1503312083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4444,7 +4417,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1080677520}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenu, KartGame
         m_MethodName: SetQuality
         m_Mode: 0
@@ -4979,7 +4952,6 @@ GameObject:
   - component: {fileID: 1893994842}
   - component: {fileID: 1893994841}
   - component: {fileID: 1893994840}
-  - component: {fileID: 1893994844}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -5070,18 +5042,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1893994844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893994839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b595fef243846ed45bb6d6dcc111fafe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1900460999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,7 +5537,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1080677520}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenu, KartGame
         m_MethodName: SetVolume
         m_Mode: 0
