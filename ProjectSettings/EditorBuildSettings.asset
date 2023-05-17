@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Karting/Scenes/IntroMenu.unity
-    guid: d29260d8d84c94bd7ac95807b3da99d4
-  - enabled: 1
+    path: Assets/Karting/Scenes/CourseSelect.unity
+    guid: b730da8eefe4fed40a706faf17cd39e8
+  - enabled: 0
     path: Assets/Karting/Scenes/MenuSelect.unity
     guid: a602f46fba9f58e4da15051e1f977f83
   - enabled: 1
@@ -24,6 +27,15 @@ EditorBuildSettings:
     path: Assets/Karting/Scenes/WinScene.unity
     guid: d6801f2e59f75ee4b919cf5da4e48e3b
   - enabled: 1
+    path: Assets/Karting/Scenes/MainMenu.unity
+    guid: 001c9ab2adf518741b2112cdf3a62030
+  - enabled: 1
+    path: Assets/Karting/Scenes/PauseMenu.unity
+    guid: 135e10e3287867041b35b458337d19e9
+  - enabled: 1
+    path: Assets/Karting/Scenes/Track2.unity
+    guid: a7c7d9a1ee6dcb845b2f677ce3d21224
+  - enabled: 0
     path: Assets/Karting/Scenes/MapSelect.unity
     guid: fe100f0629cad164f886f4383a2d8f93
   m_configObjects: {}
