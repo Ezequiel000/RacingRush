@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Course Select
+  m_text: Game Select
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88003508be39e449cb51c48494e680cf, type: 2}
   m_sharedMaterial: {fileID: 21699584260080902, guid: 88003508be39e449cb51c48494e680cf,
@@ -3383,7 +3383,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1467184723}
-        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_TargetAssemblyTypeName: LevelSelector, KartGame
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -3444,7 +3444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5991e85416c6be4faaa1fb5066b0af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: CourseSelect
+  levelToLoad: GameSelect
 --- !u!1 &1503312083
 GameObject:
   m_ObjectHideFlags: 0

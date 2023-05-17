@@ -605,7 +605,7 @@ GameObject:
   - component: {fileID: 1119385299}
   - component: {fileID: 1119385302}
   m_Layer: 5
-  m_Name: Track1
+  m_Name: Racing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5991e85416c6be4faaa1fb5066b0af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Track1
+  levelToLoad: CourseSelect-Lap
 --- !u!1 &1185254448
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 1185254450}
   - component: {fileID: 1185254453}
   m_Layer: 5
-  m_Name: Track2
+  m_Name: TimedTrials
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5991e85416c6be4faaa1fb5066b0af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Track2
+  levelToLoad: CourseSelect-TimeTrials
 --- !u!1 &1353959117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 1566966232}
   - component: {fileID: 1566966231}
   m_Layer: 5
-  m_Name: Course2 Text (TMP)
+  m_Name: TimedTrials Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Course: The City'
+  m_text: Timed Trials
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88003508be39e449cb51c48494e680cf, type: 2}
   m_sharedMaterial: {fileID: 21699584260080902, guid: 88003508be39e449cb51c48494e680cf,
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 1897245941}
   - component: {fileID: 1897245940}
   m_Layer: 5
-  m_Name: Course1 Text (TMP)
+  m_Name: Racing Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Course: Outer Space'
+  m_text: Racing
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88003508be39e449cb51c48494e680cf, type: 2}
   m_sharedMaterial: {fileID: 21699584260080902, guid: 88003508be39e449cb51c48494e680cf,
